@@ -1,0 +1,12 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '14.5'
+
+target 'GameOfThrones' do
+  use_frameworks!
+  
+  pod 'PKHUD'
+  pod 'Alamofire', '4.9'
+  pod 'AlamofireObjectMapper'
+  pod 'ObjectMapper'
+  
+end
